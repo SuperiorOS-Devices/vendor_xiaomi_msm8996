@@ -48,8 +48,7 @@
              TotalNumCores="4"
              SocIds="246,291"
              SynCore="1"
-             MinCoreOnline="0"
-	     CpufreqGov="1" />
+             MinCoreOnline="0" />
 
          <ClustersInfo Id="0" NumCores="2" Type="little" />
          <ClustersInfo Id="1" NumCores="2" Type="big" />
@@ -65,8 +64,7 @@
              TotalNumCores="4"
              SocIds="305,312"
              SynCore="1"
-             MinCoreOnline="0"
-	     CpufreqGov="1" />
+             MinCoreOnline="0" />
 
          <ClustersInfo Id="0" NumCores="2" Type="little" MaxFrequency="1593600" />
          <ClustersInfo Id="1" NumCores="2" Type="big" />
