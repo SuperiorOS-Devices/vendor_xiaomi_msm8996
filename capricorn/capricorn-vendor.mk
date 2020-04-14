@@ -18,6 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/capricorn
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/capricorn/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
     vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx378_chromatix.xml \
     vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_liteon_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx378_liteon_chromatix.xml \
     vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_semco_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx378_semco_chromatix.xml \
@@ -217,8 +218,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/libmmcamera_ov4688_primax_a7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov4688_primax_a7.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/libmmcamera_sony_imx378_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx378_eeprom.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/rfsa/adsp/libdirac-appi.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libdirac-appi.so \
+    vendor/xiaomi/capricorn/proprietary/vendor/lib64/hw/fingerprint.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.qcom.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib64/libqfp-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp-service.so \
-    vendor/xiaomi/capricorn/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
+    vendor/xiaomi/capricorn/proprietary/vendor/lib64/qfp.wakeup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qfp.wakeup.so
 
 PRODUCT_PACKAGES += \
     QFingerprintService

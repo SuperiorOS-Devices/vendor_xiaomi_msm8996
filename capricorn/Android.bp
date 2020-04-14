@@ -22,7 +22,7 @@ soong_namespace {
 android_app_import {
 	name: "QFingerprintService",
 	owner: "xiaomi",
-	apk: "proprietary/vendor/app/QFingerprintService/QFingerprintService.apk",
+	apk: "proprietary/app/QFingerprintService/QFingerprintService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
